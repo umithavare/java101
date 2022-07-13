@@ -1,12 +1,13 @@
 package Giris;
 import java.sql.SQLOutput;
 import java.util.Scanner;
+/** @umithavare patika.dev linkim: https://app.patika.dev/umith **/
 public class NotOrtHesaplayanProgram {
     public static void main(String[] args) {
         // Değişkenler oluşturuldu.
         int mat,fzk,kim,trk,trh,mzk,ortalama;
         Scanner input = new Scanner(System.in);
-        System.out.println("Matematik Dersini Notunu giriniz: ");
+        System.out.println("Matematik Dersini notunu giriniz: ");
         mat = input.nextInt();
         System.out.println("Fizik Dersinin notunu giriniz: ");
         fzk = input.nextInt();
