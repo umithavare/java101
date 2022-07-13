@@ -1,6 +1,7 @@
 package Giris;
 import java.sql.SQLOutput;
 import java.util.Scanner;
+/** @umithavare patika.dev linkim: https://app.patika.dev/umith **/
 
 public class KdvHesaplayanProgram {
     public static void main(String[] args) {
