@@ -12,9 +12,10 @@ public class KdvHesaplayanProgram {
         Scanner input = new Scanner(System.in);
         System.out.println("Lütfen ürün Fiyati giriniz: ");
         fiyat = input.nextDouble();
-        kdvTutari = fiyat * 0.18;
+        boolean kdvOrani = 1000 <= fiyat ;
+        double kdvMiktari = kdvOrani ? 0.08 : 0.18;
+        kdvTutari = fiyat * kdvMiktari;
         kdvliFiyat= fiyat + kdvTutari;
-        System.out.println("Kdv Miktari %18'dir.");
         System.out.println("Kdv'siz Fiyat :\t" +fiyat + "\nKdv Tutarı :\t"+ kdvTutari + "\nKdv'li fiyat :\t" + kdvliFiyat);
     }
 }
