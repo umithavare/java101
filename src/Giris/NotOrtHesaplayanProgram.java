@@ -1,7 +1,16 @@
 package Giris;
 import java.sql.SQLOutput;
 import java.util.Scanner;
-/** @umithavare patika.dev linkim: https://app.patika.dev/umith **/
+    /** @umithavare patika.dev linkim: https://app.patika.dev/umith **/
+
+/**
+ * Not Ortalaması Hesaplayan Program
+ *
+ * Java ile Matematik, Fizik, Kimya, Türkçe, Tarih, Müzik derslerinin sınav puanlarını kullanıcıdan alan ve ortalamalarını hesaplayıp ekrana bastırılan programı yazın.
+ * Ödev
+ *
+ * Aynı program içerisinde koşullu ifadeler kullanılarak, eğer kullanıcının ortalaması 60'dan büyük ise ekrana "Sınıfı Geçti" , küçük ise "Sınıfta Kaldı" yazsın.
+ */
 public class NotOrtHesaplayanProgram {
     public static void main(String[] args) {
         // Değişkenler oluşturuldu.

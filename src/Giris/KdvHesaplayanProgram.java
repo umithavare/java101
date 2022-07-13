@@ -3,6 +3,9 @@ import java.sql.SQLOutput;
 import java.util.Scanner;
 /** @umithavare patika.dev linkim: https://app.patika.dev/umith **/
 
+/**
+ * Eğer girilen tutar 0 ve 1000 TL arasında ise KDV oranı %18 , tutar 1000 TL'den büyük ise KDV oranını %8 olarak KDV tutarı hesaplayan programı yazınız.
+ */
 public class KdvHesaplayanProgram {
     public static void main(String[] args) {
         double fiyat,kdvliFiyat,kdvTutari;
