@@ -1,5 +1,7 @@
 package Giris;
 import java.util.Scanner;
+/** @umithavare patika.dev linkim: https://app.patika.dev/umith **/
+
 public class CinZodyagiProgrami {
     public static void main(String[] args) {
         double dogumYili;
