@@ -166,7 +166,6 @@ public class GelismisHesapMakinesi {
                 control = false;
         }
     }
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int  select;
