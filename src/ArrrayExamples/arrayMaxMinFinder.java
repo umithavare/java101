@@ -1,7 +1,7 @@
 package ArrrayExamples;
 import java.util.Arrays;
 import java.util.Scanner;
-public class ArrayMaxMinFinder {
+public class arrayMaxMinFinder {
     public static void main(String[] args) {
         double number;
         int[] list = {15,12,788,1,-1,-778,2,0};
